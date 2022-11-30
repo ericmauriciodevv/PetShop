@@ -12,6 +12,11 @@ import styles from '../styles/Home.module.css'
 
 
 export default function Home() {
+  const [state, setstate] = useState(false)
+
+  function hover(){
+    console.log('marica hpt no se ponga encima de mi ')
+  }
   return (
     <div>
       <title>PetShop | Home</title>
@@ -20,7 +25,7 @@ export default function Home() {
     <div className='container'>
       
       <h1>Home</h1>
-      <img src='../img/example1.jpeg' width='1300' height='500'></img>
+      <img className='rounded-5 mb-5 border-bottom' src='../img/example1.jpg' width='1300' height='500'></img>
 
       <h3>Category</h3>
       <p className='text-secondary'>Labels for find wathever do you want</p>
@@ -34,17 +39,17 @@ export default function Home() {
 
       <h3>Food for dogs and cats</h3>
       <p className='text-secondary'>Find all brands of pet food, food addresses</p>
-      <div className='row mb-5 pb-4'>
-      <img className='col rounded-4' src='../img/comida/Chunky.jpeg' width='100' height='200'></img>
-      <img className='col rounded-4' src='../img/comida/hills.jpeg' width='100' height='200'></img>
-      <img className='col rounded-4' src='../img/comida/monello.jpeg' width='100' height='200'></img>
-      <img className='col rounded-4' src='../img/comida/VetLife.jpeg' width='100' height='200'></img>
+      <div className='row mb-2'>
+      <img onMouseEnter={hover()} className='p-0 m-3 col rounded-4' src='../img/comida/Chunky.jpeg' width='100' height='200'></img>
+      <img className='p-0 m-3 col rounded-4' src='../img/comida/hills.jpeg' width='100' height='200'></img>
+      <img className='p-0 m-3 col rounded-4' src='../img/comida/monello.jpeg' width='100' height='200'></img>
+      <img className='p-0 m-3 col rounded-4' src='../img/comida/VetLife.jpeg' width='100' height='200'></img>
       </div>
       <div className='row border-bottom mb-5 pb-4'>
-      <img className='col rounded-4' src='../img/comida/nupec.jpeg' width='100' height='200'></img>
-      <img className='col rounded-4' src='../img/comida/ProPlan.jpeg' width='100' height='200'></img>
-      <img className='col rounded-4' src='../img/comida/royalCanin.jpeg' width='100' height='200'></img>
-      <img className='col rounded-4' src='../img/comida/TasteOfTheWild.jpeg' width='100' height='200'></img>
+      <img className='p-0 m-3 col rounded-4' src='../img/comida/nupec.jpeg' width='100' height='200'></img>
+      <img className='p-0 m-3 col rounded-4' src='../img/comida/ProPlan.jpeg' width='100' height='200'></img>
+      <img className='p-0 m-3 col rounded-4' src='../img/comida/royalCanin.jpeg' width='100' height='200'></img>
+      <img className='p-0 m-3 col rounded-4' src='../img/comida/TasteOfTheWild.jpeg' width='100' height='200'></img>
       </div>
 
       
