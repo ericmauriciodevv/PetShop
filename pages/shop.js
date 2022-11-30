@@ -7,7 +7,7 @@ export default function shop() {
 
     return(
     <div>
-      <title>PetShop / shop</title>
+      <title>PetShop | shop</title>
       <NavBar></NavBar>
       
     <div className='container'>
