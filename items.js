@@ -1,81 +1,92 @@
 export const items = [
     {
-        id: 0,
+        id: "1",
         name: 'collar de perro',
         description: "Collar de perro color rojo",
-        img: "../img/collar.png",
+        img: "../img/products/collar.png",
+        imgG: '../img/products/collarG.jpeg',
         price: 100
 
     },
     {
-        id: 2,
+        id: "2",
         name: 'collar de perro',
         description: "Collar de cuero",
-        img: "../img/collar2.jpeg",
+        img: "../img/products/collar2.jpeg",
+        imgG: '',
         price: 100
     },
     {
-        id: 3,
+        id: "3",
         name: 'collar de perro',
         description: "Collar de perro color azul",
-        img: "",
+        img: "../img/products/collar3.jpeg",
+        imgG: '',
         price: 100
     },
     {
-        id: 4,
+        id: "4",
         name: 'collar de perro',
-        description: "Collar de perro color azul",
-        img: "",
+        description: "correa",
+        img: "../img/products/correa1.jpeg",
+        imgG: '',
         price: 100
     },
     {
-        id: 5,
-        name: 'collar de perro',
-        description: "Collar de perro color azul",
-        img: "",
+        id: "5",
+        name: 'cama perro',
+        description: "Cama de perro comoda ",
+        img: "../img/products/cama.png",
+        imgG: '',
         price: 100
     },
     {
-        id: 6,
+        id: "6",
         name: 'collar de perro',
         description: "Collar de perro color azul",
-        img: "",
+        img: "../img/products/",
+        imgG: '',
         price: 100
     },
     {
-        id: 7,
-        name: 'collar de perro',
-        description: "Collar de perro color azul",
-        img: "",
+        id: "7",
+        name: 'Cuido Chunky',
+        description: "Cuido nutritivo",
+        img: "../img/products/Chunky.jpeg",
+        imgG: '',
         price: 100
     },
     {
-        id: 8,
+        id: "8",
         name: 'collar de perro',
         description: "Collar de perro color azul",
-        img: "",
+        img: "../img/products/",
+        imgG: '',
         price: 100
     },
     {
-        id: 9,
+        id: "9",
         name: 'collar de perro',
         description: "Collar de perro color azul",
-        img: "",
+        img: "../img/products/",
+        imgG: '',
         price: 100
     },
     {
-        id: 10,
+        id: "10",
         name: 'collar de perro',
         description: "Collar de perro color azul",
-        img: "",
+        img: "../img/products/",
+        imgG: '',
         price: 100
 
     },
     {
-        id: 11,
+        id: "11",
         name: 'collar de perro',
         description: "Collar de perro color azul",
-        img: "",
+        img: "../img/products/",
+        imgG: '',
         price: 100
 
     }

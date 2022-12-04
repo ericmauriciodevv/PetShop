@@ -14,9 +14,9 @@ export default function shop() {
       
       <h1>shop</h1>
 
-      <div className="row align-items-start">
+      <div className="row align-items-start justify-content-center">
         {items.map(function(item){
-          return(<Item className='col' price={`$${item.price}`} key={item.id} name={item.name} img={item.img} description={item.description}></Item>)
+          return(<Item href={`/shop/${item.id}`} className='col' price={`$${item.price}`} key={item.id} name={item.name} img={item.img} description={item.description}></Item>)
         })}
         
       
