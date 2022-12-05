@@ -4,6 +4,7 @@ export const items = [
         name: 'collar de perro',
         description: "Collar de perro color rojo",
         img: "../img/products/collar.png",
+        category: ["collares"],
         imgG: '../img/products/collarG.jpeg',
         price: 100
 
@@ -13,6 +14,7 @@ export const items = [
         name: 'collar de perro',
         description: "Collar de cuero",
         img: "../img/products/collar2.jpeg",
+        category: ["collares"],
         imgG: '',
         price: 100
     },
@@ -21,6 +23,7 @@ export const items = [
         name: 'collar de perro',
         description: "Collar de perro color azul",
         img: "../img/products/collar3.jpeg",
+        category: ["collares"],
         imgG: '',
         price: 100
     },
@@ -29,6 +32,7 @@ export const items = [
         name: 'collar de perro',
         description: "correa",
         img: "../img/products/correa1.jpeg",
+        category: ["collares"],
         imgG: '',
         price: 100
     },
@@ -37,6 +41,7 @@ export const items = [
         name: 'cama perro',
         description: "Cama de perro comoda ",
         img: "../img/products/cama.png",
+        category: ["camas"],
         imgG: '',
         price: 100
     },
@@ -45,6 +50,7 @@ export const items = [
         name: 'collar de perro',
         description: "Collar de perro color azul",
         img: "../img/products/",
+        category: ["collares"],
         imgG: '',
         price: 100
     },
@@ -53,6 +59,7 @@ export const items = [
         name: 'Cuido Chunky',
         description: "Cuido nutritivo",
         img: "../img/products/Chunky.jpeg",
+        category: ["comida"],
         imgG: '',
         price: 100
     },
@@ -61,6 +68,7 @@ export const items = [
         name: 'collar de perro',
         description: "Collar de perro color azul",
         img: "../img/products/",
+        category: ["collares"],
         imgG: '',
         price: 100
     },
@@ -69,6 +77,7 @@ export const items = [
         name: 'collar de perro',
         description: "Collar de perro color azul",
         img: "../img/products/",
+        category: ["collares"],
         imgG: '',
         price: 100
     },
@@ -77,6 +86,7 @@ export const items = [
         name: 'collar de perro',
         description: "Collar de perro color azul",
         img: "../img/products/",
+        category: ["collares"],
         imgG: '',
         price: 100
 
@@ -86,6 +96,7 @@ export const items = [
         name: 'collar de perro',
         description: "Collar de perro color azul",
         img: "../img/products/",
+        category: ["collares"],
         imgG: '',
         price: 100
 

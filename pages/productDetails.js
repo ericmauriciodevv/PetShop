@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import { items } from '../items'
 import NavBar from '../components/NavBar'
-import ShoppingCar from '../components/ShoppingCar'
+
 
 const productDetails = () => {
   const router = useRouter()
@@ -16,9 +16,9 @@ const productDetails = () => {
     <NavBar></NavBar>
     {product ? 
     <div className='row  p-4 border rounded-4 p-1 m-5'>
-      <ShoppingCar></ShoppingCar>
+      
 
-      <img className='col p-0 broder-botton' src={product.imgG} width='100' height='300'></img>
+      <img className='col mx-3 p-0 broder-botton' src={product.img} width='100' height='300'></img>
 
       <div className='col w-25 border rounded mt-5'>
         <h2>{product.name}</h2>

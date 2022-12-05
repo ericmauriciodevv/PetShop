@@ -1,3 +1,4 @@
+import Link from "next/link";
 import LogIn from "./Login";
 
 export default function NavBar () {
@@ -16,13 +17,13 @@ export default function NavBar () {
                 <div className=" navbar-collapse collapse" id="toggleMobileMenu">
                     <ul className="navbar-nav">
                         <li>
-                            <a className="nav-link" href="./shop">Shop</a>
+                            <Link className="nav-link" href='/shop'>Shop</Link>
                         </li>
                         <li>
-                            <a className="nav-link" href="#">Home</a>
+                            <Link className="nav-link" href='/shop'>Shop</Link>
                         </li>
                         <li>
-                            <a className="nav-link" href="#">Home</a>
+                            <Link className="nav-link" href='/shop'>Shop</Link>
                         </li>
                     </ul>
                     
