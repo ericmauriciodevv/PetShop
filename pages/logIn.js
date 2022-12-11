@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 
-export default function login(){
+const  login = () => {
     return(
         <div>
             <NavBar></NavBar>
@@ -8,3 +8,5 @@ export default function login(){
         </div>
     )
 }
+
+export default login

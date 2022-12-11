@@ -1,10 +1,10 @@
+import Image from "next/image"
 
-
-export default function Item ({img, name, description, price, href}) {
+const  Item =({img, name, description, price, href}) => {
     return(
         <div className="d-inline border rounded-3 p-2 mb-4 mx-2 p-4 w-25">
             <div className="justify-content-center">
-            <img className="" src={img} width='200' height='200'></img>
+            <Image className="" src={img} width={200} height={200}></Image>
             <h3>{name}</h3>
             <p>{description}</p>
             <p className="h5 text-secondary">{price}</p>
@@ -14,3 +14,5 @@ export default function Item ({img, name, description, price, href}) {
         </div>
     )
 }
+
+export default Item

@@ -2,14 +2,14 @@ import { items } from "../items"
 import Item from "../components/item"
 import NavBar from "../components/NavBar"
 import LogIn from "../components/LogIn"
-import LabelsBar from "../components/LabelsBar"
 import { useState } from "react"
 
-export default function shop() {
+const shop = () => {
   const [filteredItems, setFilteredItems] = useState(items) 
+  const [IsHover, setIsHover] = useState(false)
 
   const filterHandler = (category) => {
-    const filterList = filteredItems.filter(item => item.category[0] === category)
+    const filterList = items.filter(item => item.category[0] === category )
     setFilteredItems(filterList)
   }
     return(
@@ -20,8 +20,8 @@ export default function shop() {
     <div className='container'>
       
       <h1>shop</h1>
-      <div className="row">
-        <div className="col-4">
+      <div className="row bg-light mb-5 rounded mx-0 px-0">
+        <div className="col-4 mx-0">
           <div className="btn" onClick={()=>{filterHandler("comida")}}>comida</div>
         </div>
         <div className="col-4">
@@ -38,7 +38,7 @@ export default function shop() {
           return(
           <Item href={`/shop/${item.id}`} className='col' price={`$${item.price}`} key={item.id} name={item.name} img={item.img} description={item.description}></Item>)
         })}
-        <LabelsBar className=''></LabelsBar>
+        
         
       
       </div>
@@ -48,3 +48,5 @@ export default function shop() {
     </div>
     )
 }
+
+export default shop

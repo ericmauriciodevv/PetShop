@@ -1,4 +1,4 @@
-export default function LogIn(){
+const LogIn = () => {
     return(
         
         <div className="position-absolute top-0 end-0" style={{ 
@@ -11,3 +11,5 @@ export default function LogIn(){
         
     )
 }
+
+export default LogIn

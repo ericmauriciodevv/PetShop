@@ -1,9 +1,9 @@
 import Link from "next/link";
 import LogIn from "./Login";
 
-export default function NavBar () {
+const NavBar = () => {
     return(
-        <div className="bg-light">
+        <div className="bg-light mb-4">
             <nav className="container navbar navbar-expand-md navbar-ligth position-relative">
                 <a href="./" className="navbar-brand"><img href='./' src="../img/Logo.png" width='30' height='30'></img>PetShop</a>
                 <button
@@ -33,3 +33,5 @@ export default function NavBar () {
         </div>
     )
 }
+
+export default NavBar

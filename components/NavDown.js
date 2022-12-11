@@ -1,4 +1,4 @@
-export default function NavBar () {
+const NavDown = () => {
     return(
         <div className="row navbar-collapse collapse" id="toggleMobileMenu">
                     <ul className="navbar-nav">
@@ -15,3 +15,5 @@ export default function NavBar () {
         </div>
     )
 }
+
+export default NavDown
