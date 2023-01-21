@@ -3,7 +3,7 @@ export const items = [
         id: "1",
         name: 'collar de perro',
         description: "Collar de perro color rojo",
-        img: "../img/products/collar.png",
+        img: "/img/products/collar.png",
         category: ["collares"],
         imgG: '/img/products/collarG.jpeg',
         price: 100
